@@ -21,3 +21,5 @@ select count(*) from silver.store_sales_clean
 where ss_sales_price is null;
 select count(*) from silver.store_sales_clean
 where ss_quantity <= 0;
+
+DROP
